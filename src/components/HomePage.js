@@ -9,7 +9,7 @@ const HomePage = ({ condiments }) => {
     return (
       <li key={idx} className="list-item-condiment">
         <h3>{condiment.name}</h3>
-        <Link to={`/product/${productId}`}>Visit Product Page</Link>
+        <Link to={`/condimentsShoppingPage/product/${productId}`}>Visit Product Page</Link>
       </li>
     )
   }) 

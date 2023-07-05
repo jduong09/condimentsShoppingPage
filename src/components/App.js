@@ -108,13 +108,13 @@ const App = () => {
         <h1><a href='/' >Food's Best Friend</a></h1>
         <div id="div-header-checkout">
           <span>{total === 0 ? '0.00' : total}</span>
-          <Link id="link-checkout" to={'/checkout'}>Checkout</Link>
+          <Link id="link-checkout" to={'/condimentsShoppingPage/checkout'}>Checkout</Link>
         </div>
       </header>
       <Routes>
-          <Route path='/' element={<HomePage condiments={condiments} />} />
-          <Route path='/product/:productId' element={<ProductPage condiments={condiments} setProduct={setProduct} />} />
-          <Route path='/checkout' element={<Checkout total={total} cartItems={cartItems} incrementProduct={incrementProductQuantity} decrementProduct={decrementProductQuantity} />} />
+          <Route path='/condimentsShoppingPage' element={<HomePage condiments={condiments} />} />
+          <Route path='/condimentsShoppingPage/product/:productId' element={<ProductPage condiments={condiments} setProduct={setProduct} />} />
+          <Route path='/condimentsShoppingPage/checkout' element={<Checkout total={total} cartItems={cartItems} incrementProduct={incrementProductQuantity} decrementProduct={decrementProductQuantity} />} />
         </Routes>
       </BrowserRouter>
     </div>

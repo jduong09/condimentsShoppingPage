@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Checkout = ({ total, cartItems, incrementProduct, decrementProduct }) => {
   return (
     <div id="div-checkout">
-      <div id="div-back"><Link id="link-back" to="/">Back to Home Page</Link></div>
+      <div id="div-back"><Link id="link-back" to="/condimentsShoppingPage">Back to Home Page</Link></div>
       <div id="div-checkout-list">
         <ul>
           {cartItems['1'] === 0

@@ -23,7 +23,7 @@ const ProductPage = ({ condiments, setProduct }) => {
 
   return (
     <div id="product">
-      <div id="div-back"><Link id="link-back" to="/">Back to Home Page</Link></div>
+      <div id="div-back"><Link id="link-back" to="/condimentsShoppingPage">Back to Home Page</Link></div>
       <img id={`product-img-${productId}`} src={productImg} alt={`${productName} product`} />
       <div id="div-product-description">
         <h2>{productName}</h2>
