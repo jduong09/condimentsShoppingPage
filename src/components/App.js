@@ -5,49 +5,26 @@ import React from 'react';
 import HomePage from './HomePage';
 import ProductPage from './ProductPage';
 import Checkout from './Checkout';
-/*
-Home Page
-- Displays 3 Condiments
-  - Ketchup
-  - Kewpie
-  - Worcestershire Sauce
 
-- For each condiment
-  - Name of condiment
-  - Price of condiment per how many oz
-  - button to go to buy product
-
-Product Page
-  - Displays product information
-  - Image of condiment
-  - Price of condiment per how many oz
-  - Add to cart button
-  - product description
-  - use cases
-
-Cart Page (?) or just state.
-  - Cart holds all the items that have been chosen.
-  - Calculates price of cart based on items that have been chosen.   
-*/
 const App = () => {
   const condiments = {
     1: {
       name: 'Heinz Ketchup',
       size: 14,
       price: 3.19,
-      img: './assets/heinz_ketchup_14_oz.jpeg'
+      img: '/heinz_ketchup_14_oz.jpeg'
     },
     2: {
       name: 'Kewpie Mayonnaise',
       size: 17.64,
       price: 6.19,
-      img: './assets/kewpie_17_oz.jpg'
+      img: '/kewpie_17_oz.jpg'
     },
     3: {
       name: 'Meijer Worcestershire Sauce',
       size: 10,
       price: 1.49,
-      img: './assets/meijer_worcestershire_10_pz.png'
+      img: '/meijer_worcestershire_10_pz.png'
     }
   };
 
