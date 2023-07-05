@@ -8,7 +8,7 @@ const HomePage = ({ condiments }) => {
     const condiment = condimentsArr[1];
     return (
       <li key={idx} className="list-item-condiment">
-        <h2>{condiment.name}</h2>
+        <h3>{condiment.name}</h3>
         <Link to={`/product/${productId}`}>Visit Product Page</Link>
       </li>
     )
@@ -16,7 +16,7 @@ const HomePage = ({ condiments }) => {
 
   return (
     <div id="div-homepage">
-      <h1>Home Page</h1>
+      <h2>Our Products</h2>
       <div id="div-products">
         <ul id="list-products">{listCondiments}</ul>
       </div>

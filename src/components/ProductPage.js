@@ -23,9 +23,9 @@ const ProductPage = ({ condiments, setProduct }) => {
 
   return (
     <div id="product">
-      <div><Link to="/">Back to HomePage</Link></div>
+      <div id="div-back"><Link id="link-back" to="/">Back to Home Page</Link></div>
       <img id={`product-img-${productId}`} src={productImg} alt={`${productName} product`} />
-      <div>
+      <div id="div-product-description">
         <h2>{productName}</h2>
         <div>{productSize} oz</div>
         <div>${productPrice}</div>
@@ -34,7 +34,7 @@ const ProductPage = ({ condiments, setProduct }) => {
           <span>{quantity}</span>
           <button id="btn-increment-quantity" onClick={incrementQuantity}>+</button>
         </div>
-        <button onClick={(e) => setProduct(productId, quantity, e)}>Add To Cart</button>
+        <button id="btn-add-cart" onClick={(e) => setProduct(productId, quantity, e)}>Add To Cart</button>
       </div>
     </div>
   )

@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import '../styles/meyers_reset.css';
 import '../styles/App.css';
 import React from 'react';
 import HomePage from './HomePage';
@@ -104,10 +105,10 @@ const App = () => {
     <div>
       <BrowserRouter>
       <header>
-        <h1><a href='/' >Condiments Shopping Website</a></h1>
-        <div>
-          {total}
-          <Link to={'/checkout'}>Checkout</Link>
+        <h1><a href='/' >Food's Best Friend</a></h1>
+        <div id="div-header-checkout">
+          <span>{total === 0 ? '0.00' : total}</span>
+          <Link id="link-checkout" to={'/checkout'}>Checkout</Link>
         </div>
       </header>
       <Routes>
