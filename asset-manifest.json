@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/condimentsShoppingPage/static/css/main.d6edb8d0.css",
-    "main.js": "/condimentsShoppingPage/static/js/main.d031ac05.js",
+    "main.js": "/condimentsShoppingPage/static/js/main.03c24351.js",
     "static/js/787.0dcc46bf.chunk.js": "/condimentsShoppingPage/static/js/787.0dcc46bf.chunk.js",
     "index.html": "/condimentsShoppingPage/index.html",
     "main.d6edb8d0.css.map": "/condimentsShoppingPage/static/css/main.d6edb8d0.css.map",
-    "main.d031ac05.js.map": "/condimentsShoppingPage/static/js/main.d031ac05.js.map",
+    "main.03c24351.js.map": "/condimentsShoppingPage/static/js/main.03c24351.js.map",
     "787.0dcc46bf.chunk.js.map": "/condimentsShoppingPage/static/js/787.0dcc46bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6edb8d0.css",
-    "static/js/main.d031ac05.js"
+    "static/js/main.03c24351.js"
   ]
 }
