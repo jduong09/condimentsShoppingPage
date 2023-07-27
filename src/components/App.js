@@ -12,19 +12,19 @@ const App = () => {
       name: 'Heinz Ketchup',
       size: 14,
       price: 3.19,
-      img: '/heinz_ketchup_14_oz.jpeg'
+      img: '/condimentsShoppingPage/heinz_ketchup_14_oz.jpeg'
     },
     2: {
       name: 'Kewpie Mayonnaise',
       size: 17.64,
       price: 6.19,
-      img: '/kewpie_17_oz.jpg'
+      img: '/condimentsShoppingPage/kewpie_17_oz.jpg'
     },
     3: {
       name: 'Meijer Worcestershire Sauce',
       size: 10,
       price: 1.49,
-      img: '/meijer_worcestershire_10_pz.png'
+      img: '/condimentsShoppingPage/meijer_worcestershire_10_pz.png'
     }
   };
 
