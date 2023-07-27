@@ -24,7 +24,7 @@ const App = () => {
       name: 'Meijer Worcestershire Sauce',
       size: 10,
       price: 1.49,
-      img: '/condimentsShoppingPage/meijer_worcestershire_10_pz.png'
+      img: '/condimentsShoppingPage/meijer_worcestershire_10_oz.png'
     }
   };
 

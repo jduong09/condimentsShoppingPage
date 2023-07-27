@@ -69,6 +69,8 @@ h1 > a {
 #product {
   padding: 1rem;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -78,11 +80,12 @@ h1 > a {
 }
 
 #product > img {
-  flex: 2 40%;
+  width: 40%;
+  flex: 2;
 }
 
 #div-product-description {
-  flex: 2 60%;
+  flex: 2;
 }
 
 #div-product-description > h2 {
